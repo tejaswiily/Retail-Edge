@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDS</title>
+  <link rel="stylesheet" href="p.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <img src="lop.png" class="logo">
+       <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+    </nav>
+    <div id="sideNav">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#input">INPUT</a></li>
+                <!-- <a href="http://127.0.0.1:5500/predict.html">
+                <li>WHAT'S NEXT?</li>   
+                </a> -->
+                <li><a href="#contactus">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div> 
+    <header id="home">
+        <div class="header-content">
+          <h1>EXPLORE RETAIL SECTOR HERE!</h1>
+          <h2>Know the best product.</h2>
+          <h2>Know the market and visualize your stats.</h2>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+          <div class="header-btn">
+            <a href="http://127.0.0.1:5500/about.html"><span></span> Learn more </a>
+          </div>
+        </div>
+    </header>
+    <div id="menubtn">
+         <img src="https://cdn4.iconfinder.com/data/icons/web-icons-22/48/menu-bars-512.png" id="menu">
+    </div>
+    <section id="aboutus" class="events">
+        <div class="title">
+             <h1>ABOUT US..</h1>
+             <div class="line"></div>
+        </div>
+        <div class="row">
+           <div class="col">
+                <img src="https://cdn.dribbble.com/users/2085367/screenshots/5799988/media/8d15142d649aafa50adee7e281649d6e.png?resize=400x300&vertical=center" alt="">
+                <h4>PROJECT</h4>
+                <p>We like-minded students, by considering the issue of increase in today's retail sector have come up with possible solution. Our mission is to develop a retail platform where users can know the best product and salesmen can understand the market thereby visualse their data.</p>
+                <!-- <a href="#" class="ctn">Learn more</a> -->
+           </div>
+           <div class="col">
+            <img src="https://www.sketchappsources.com/resources/th-image/diagram-chart-gitaadi.jpg" alt="">
+            <h4>WHY US?</h4>
+            <p>Our team developed using various algorithms, statistical analysis, our model is designed to sift through vast datasets, detecting outliers with precision.</p>
+            <!-- <a href="#" class="ctn">Learn more</a> -->
+           
+       </div>
+        </div>
+    </section>
+    <section id="input" class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE RETAIL</h1>
+            <div class="line"></div>
+            
+            <div class="boxes-container">
+                <div class="box">
+                    <h3>VISUALIZE YOUR SALES DATA</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="http://127.0.0.1:5000/" class="custom-file-upload">Click here</a>
+                </div>
+                <div class="box">
+                    <h3>SEARCH THE BEST PRODUCT</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="http://172.20.10.8:8501/" class="custom-file-upload">Click here</a>
+                </div>
+                <div class="box">
+                    <h3>TALK TO RETAIL EDGE</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="http://172.20.10.8:8502/" class="custom-file-upload">Click here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- <section id="result" class="whole">
+        <div class="container">
+          <h2>Prediction</h2>
+          <br>
+          <br>
+          <form id="predictionForm">
+              <label for="feature1">Feature 1:</label>
+              <input type="text" id="feature1" name="feature1" placeholder="Fwd Seg Size Min" required>
+  
+              <label for="feature2">Feature 2:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Dst Port " required>
+  
+              <label for="feature2">Feature 3:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Init Fwd Win Byts" required>
+  
+              <label for="feature2">Feature 4:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Flow Byts/s " required>
+  
+              <label for="feature2">Feature 5:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Fwd Pkts/s " required>
+  
+              <label for="feature2">Feature 6:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Flow Pkts/s " required>
+  
+              <label for="feature2">Feature 7:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Bwd Pkts/s" required>
+  
+              <label for="feature2">Feature 8:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Bwd IAT Min" required>
+  
+              <label for="feature2">Feature 9:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Subflow Fwd Byts" required>
+  
+              <label for="feature2">Feature 10:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Flow IAT Mean  " required>
+  
+              <label for="feature2">Feature 11:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="TotLen Fwd Pkts" required>
+              
+              <label for="feature2">Feature 12:</label>
+              <input type="text" id="feature2" name="feature2" placeholder="Init Bwd Win Byts" required>
+              <button type="button" onclick="predict()">Predict</button>
+              <br>
+          </form>
+          <div id="predictionResult"></div>
+      </div> 
+  </section> -->
+  <section id="contactus" class="footer">
+    <p>
+        PEAK, 88667755XX, peak@gmail.com.
+    </p>
+    <br>
+      <div class="social">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+
+      </div>
+    <br>
+    <p>Copyright &copy;2024; Designed by Team PEAK </p>
+  </section>
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right= "-250px"
+
+        menubtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "https://th.bing.com/th/id/R.79c96a45cf274d54cfa372d072859584?rik=OCEiHwaiCmQWvQ&riu=http%3a%2f%2fdocs.updatefactory.io%2fimages%2fclose-x.png&ehk=NpqDoqU0H8G3Mm66qSwxbW1CEqD2gJ5vGKB9lhVLEjY%3d&risl=&pid=ImgRaw&r=0";
+            }
+            else{
+                sideNav.style.right ='-250px';
+                menu.src = "https://cdn4.iconfinder.com/data/icons/web-icons-22/48/menu-bars-512.png";
+            }
+        }
+    </script>
+    <script>
+        function predict() {
+            // You can add JavaScript code here to handle the prediction
+            // and update the result in the "predictionResult" div.
+            // This might involve sending the input data to a server,
+            // processing it with your model, and displaying the result.
+            // For simplicity, I'm just displaying a message here.
+
+            var resultDiv = document.getElementById("predictionResult");
+            resultDiv.innerHTML = "<p>Prediction result will be displayed here.</p>";
+            resultDiv.style.color = "white";}
+    </script>
+   <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuBtn = document.querySelector('#menubtn');
+        const navlinks = document.querySelector('.nav-links');
+    
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu');
+        });
+    
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.nav-links a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                const targetSectionId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetSectionId);
+    
+                if (targetSectionId === 'home') {
+                    // Scroll to the top of the page for 'Home'
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                } else if (targetSection) {
+                    // Scroll to the target section for other links
+                    window.scrollTo({
+                        top: targetSection.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+    
+    function showSection(sectionId) {
+        // Hide all sections
+        document.getElementById("home").style.display = "none";
+        document.getElementById("aboutus").style.display = "none";
+        document.getElementById("input").style.display = "none";
+        // document.getElementById("result").style.display = "none";
+        document.getElementById("contactus").style.display = "none";
+    
+        // Show the selected section
+        document.getElementById(sectionId).style.display = "block";
+    
+        // Scroll to the selected section
+        document.getElementById(sectionId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+    
+    document.getElementById("aboutus").addEventListener("click", function() {
+        showSection("aboutus");
+    });
+    
+    document.getElementById("input").addEventListener("click", function() {
+        showSection("input");
+    });
+    
+    // document.getElementById("result").addEventListener("click", function() {
+    //     showSection("result");
+    // });
+    
+    document.getElementById("contactus").addEventListener("click", function() {
+        showSection("contactus");
+    });
+    </script>
+    
+</body>
+</html>
