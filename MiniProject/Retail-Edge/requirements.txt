@@ -1,5 +1,10 @@
+streamlit
 pandas
 numpy
-flask
+pymongo
+langchain
+openai
+transformers
+sentence-transformers
 scikit-learn
 matplotlib
